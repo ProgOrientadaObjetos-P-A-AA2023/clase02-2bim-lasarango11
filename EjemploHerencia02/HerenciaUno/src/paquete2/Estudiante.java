@@ -15,7 +15,7 @@ public class Estudiante {
     protected int edadEstudiante;
     
     
-    
+    //constructor personalizado
     public Estudiante(String n, String a, String iden, int ed){
         nombresEstudiante = n;
         apellidosEstudiante = a;
