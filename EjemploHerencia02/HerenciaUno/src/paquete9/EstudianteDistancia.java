@@ -9,7 +9,7 @@ public class EstudianteDistancia extends Estudiante{
     
     public EstudianteDistancia(String n, String ap, String iden, int e,
             int numAsg, double costoAsg){
-        super(n, ap, iden, e);
+        super(n, ap, iden, e);//invicamos a la super clase 
         numeroAsignaturas = numAsg;
         costoAsignatura = costoAsg;
     }
